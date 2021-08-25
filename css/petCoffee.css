@@ -1,0 +1,214 @@
+body{
+    
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: brown;
+    background-repeat: no-repeat;
+}
+
+section.banner{
+    overflow: hidden;
+}
+
+div > h1{
+    margin-left: 30px;
+    text-align: center;
+    width: 350px;
+    color: white;
+    font-size: 40px;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
+
+div.banner-right{
+    float: right;
+    width: 60%;
+}
+
+
+
+
+section.nav{
+    background-color: brown;
+    overflow: hidden;;
+    margin-top: 10px;
+    
+}
+.nav-left{
+    float:left;
+}
+.nav-right{
+    float: right;
+}
+section.nav > ul{
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    display: flex;
+    
+}
+section.nav > ul > li{
+    text-align: center;
+    border-right: 1px solid brown;
+    min-width: 120px;
+    
+}
+section.nav > ul > li > a{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    display: block;
+    padding: 15px 8px;
+
+}
+
+section.nav > ul > li > a:hover{
+    transition:0.75s;
+    color: brown;
+    background-color:white;
+    display: block;
+    text-decoration: underline;
+}
+/* section.video{
+    margin-top: 20px;
+    display: flex;
+} */
+
+div.bellow-banner{
+    margin-top: 20px;
+    display:flex;
+}
+
+section.block{
+    
+    background-color: white;
+    color: brown;
+    border: 2px solid brown;
+    width:100%;
+
+    
+}
+section.block > h1{
+    text-align: center;
+    font-size: 40px;
+}
+div.article-1 {
+    display: flex;
+}
+p.para1{
+    padding:40px;
+    font-size: 20px;
+}
+div.article-1 img{
+    padding: 20px;
+    width: 30%;
+}
+div.article-2{
+    display: flex;
+}
+div.article-2 img{
+    padding: 20px;
+    width: 40%;
+}
+p.para2{
+    padding: 40px;
+    font-size: 100%;
+}
+
+section.block1{
+    margin-top: 20px;
+    background-color: white;
+    color: brown;
+    border: 2px solid brown;
+    width:100%;
+    text-align: center;
+}
+section.block1 > h1{
+    font-size: 40px;
+}
+div.categories{
+    margin-left: 33%;
+    margin-right: 33%;
+}
+div.categories > ul{
+    text-align: center;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+div.categories > ul > li{
+    width: 25%;
+
+}
+div.categories > ul > li > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: brown;
+    padding: 8px 15px;
+    border-radius: 10px;
+}
+div.categories > ul > li > a:hover{
+    background-color: brown;
+    color: white;
+    transition: 0.75s;
+    
+}
+
+/*Drinks&Food*/
+div.display-drinks{
+    padding: 10px 40px;
+    text-align: left;
+    display:flex;
+    flex-wrap: wrap;
+}
+div.display-drinks > div{
+    margin-left:15px;
+    margin-bottom: 10px;
+    border-bottom:2px rgb(61, 54, 54) dashed ;
+    width: 45%;
+}
+div.drink {
+    height: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    overflow: hidden;
+}
+div.drink > img{
+    width: 30%;
+}
+div.drink > div.description{
+    padding-top: 30px;
+    padding-left: 10px;
+    width: 40%;
+}
+div.drink > div.price{
+    text-align: right;
+    width: 30%;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+
+
+
+/*Footer*/
+footer{
+    margin-top: 20px;
+    background-image: url(../images/footer-bg.png);
+    height: 10%;
+    color: white;
+    padding: 20px 0px 0px 20px;
+}
+footer > ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+footer > ul > li > a:any-link{
+    color:pink;
+}
+footer > ul > li > a:hover{
+    color:greenyellow;
+}
+
